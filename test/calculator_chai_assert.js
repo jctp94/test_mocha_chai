@@ -5,7 +5,7 @@ describe("Calcultator tests using ASSERT interface from CHAI module: ", function
 	describe("Check addTested Function: ", function() {
 		it("Check the returned value using: assert.equal(value,'value'): ", function() {
 			result   = calculator.addTested("text");
-			assert.equal(result, "text tested");
+			assert.equal(result, "textasdad tested");
 		});		
 		it("Check the returned value using: assert.typeOf(value,'value'): ", function() {
 			result   = calculator.addTested("text");
